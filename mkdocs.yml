@@ -1,0 +1,41 @@
+site_name: 开心博客
+
+nav:
+  - Home:
+    - index.md 
+    - Page 1: home/page-1.md
+    - Page 2: home/page-2.md
+
+theme:
+ name: material
+ features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+
+ palette:
+   # Palette toggle for light mode
+   - media: "(prefers-color-scheme: light)"
+     scheme: default
+     primary: brown
+     toggle:
+       icon: material/brightness-7
+       name: Switch to dark mode
+
+   # Palette toggle for dark mode
+   - media: "(prefers-color-scheme: dark)"
+     scheme: slate
+     primary: brown
+     toggle:
+       icon: material/brightness-4
+       name: Switch to light mode
+
+repo_url: https://github.com/admin106/blog
+repo_name: K@GitHub
+
+extra:
+  generator: false
+  #social:
+    #- icon: fontawesome/brands/mastodon 
+      #link: https://fosstodon.org/@squidfunk
